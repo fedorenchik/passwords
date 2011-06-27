@@ -1,0 +1,36 @@
+For installation instructions see INSTALL file.
+
+passwords -- Random Password Generator.
+
+To run simply type on command line:
+
+passwords
+
+This program will output (100) random passwords containing letters in mixed
+case, numbers and punctuation signs. By default passwords length is 8. You can
+config passwords length simply by specifying number on command line:
+
+passwords 12
+
+will output passwords of length 12. Currently accepted passwords lengths are
+from 1 to 12. By default it actually generates pseudo-random passwords. If you
+want TRULY random passwords, specify -p (or --paranoid) parameter on command
+line:
+
+passwords -p
+
+will output truly random passwords but you have to wait for that... probably
+several minutes, in the mean time continue do some other stuff and check from
+time to time if it's finished. (This is because of the need to refill random
+entropy pool.) This option also will output only 10 passwords, and not 100.
+If you want different behaviour, you can mix different parameters in different
+order. (Order of parameters does not matter.) Other two parameters are:
+--help will output short usage information
+--version will output version of the script
+
+For copying/licensing conditions see COPYING.
+For TODO list see TODO.
+If you have any questions or suggestions send them to <leonidsbox@gmail.com>
+If you found a bug send it to <leonidsbox@gmail.com>
+Patches are welcome!
+Copyright (C) 2011  Leonid V. Fedorenchik <leonidsbox@gmail.com>

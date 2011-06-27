@@ -1,0 +1,3 @@
+Simply copy the script 'passwords' to some directory in your path. (e.g. ~/bin)
+
+Requirements: bash version >= 3.2
